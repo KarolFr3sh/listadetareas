@@ -1,0 +1,94 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f6f8fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(27, 31, 35, 0.12), 0 8px 24px rgba(27, 31, 35, 0.12);
+  padding: 2em;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #24292e;
+}
+
+form {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+input {
+  flex: 1;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  padding: 0.5em 1em;
+  background: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fafbfc;
+  padding: 0.75em;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #6a737d;
+}
+
+button.complete,
+button.delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0366d6;
+}
+
+button.complete:hover,
+button.delete:hover {
+  text-decoration: underline;
+}
+
+button.delete {
+  color: #d73a49;
+}
